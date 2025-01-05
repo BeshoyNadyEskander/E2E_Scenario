@@ -21,7 +21,7 @@ import static Utilities.DataUtils.getJsonData;
 public class TC01_LoginTestCases {
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup() throws IOException {
         // handled key browser that we can sent that by mvn command line -Dbrowser=edge
         String browser = System.getProperty("browser") != null ? System.getProperty("browser")
@@ -34,7 +34,7 @@ public class TC01_LoginTestCases {
                 .implicitlyWait(Duration.ofSeconds(10));
     }
 
-    @Test(alwaysRun = true)
+    @Test()
     public void validLoginTC() throws IOException {
         new P01_loginPage(getDriver())
                 .enterUsername(getJsonData("validLoginData", "username"))
@@ -42,7 +42,7 @@ public class TC01_LoginTestCases {
                 .clickOnLoginButton();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void quit() {
         quitDriver();
     }
