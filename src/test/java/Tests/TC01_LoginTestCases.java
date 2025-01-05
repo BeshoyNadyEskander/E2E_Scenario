@@ -34,7 +34,7 @@ public class TC01_LoginTestCases {
                 .implicitlyWait(Duration.ofSeconds(10));
     }
 
-    @Test()
+    @Test(alwaysRun = true)
     public void validLoginTC() throws IOException {
         new P01_loginPage(getDriver())
                 .enterUsername(getJsonData("validLoginData", "username"))
