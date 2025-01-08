@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-01T23:05:41 EET" name="Surefire suite" finished-at="2025-01-01T23:06:02 EET" duration-ms="20362">
+    <groups>
+    </groups>
+    <test started-at="2025-01-01T23:05:41 EET" name="Surefire test" finished-at="2025-01-01T23:06:02 EET" duration-ms="20362">
+      <class name="Tests.TC02_LandingTestCases">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Tests.TC02_LandingTestCases@2a49fe]" started-at="2025-01-01T23:05:41 EET" name="openBrowser" finished-at="2025-01-01T23:05:58 EET" duration-ms="16864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="checkingOnSelecedNumberOfProducts()[pri:0, instance:Tests.TC02_LandingTestCases@2a49fe]" started-at="2025-01-01T23:05:58 EET" name="checkingOnSelecedNumberOfProducts" finished-at="2025-01-01T23:06:00 EET" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOnSelecedNumberOfProducts -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC02_LandingTestCases@2a49fe]" started-at="2025-01-01T23:06:00 EET" name="quit" finished-at="2025-01-01T23:06:02 EET" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.TC02_LandingTestCases -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
