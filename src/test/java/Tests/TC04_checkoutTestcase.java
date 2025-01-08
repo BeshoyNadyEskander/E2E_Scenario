@@ -27,7 +27,7 @@ import static Utilities.DataUtils.getEnvironmentValue;
 public class TC04_checkoutTestcase {
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public static void openBrowser() throws IOException {
 
         // handled key browser that we can sent that by mvn command line -Dbrowser=edge
