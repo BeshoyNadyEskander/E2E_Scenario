@@ -1,3 +1,0 @@
-[INFO] 01-01-2025 22:56:21  [Tests.TC02_LandingTestCases.openBrowser(TC02_LandingTestCases.java:31)] - chrome is opened
-[INFO] 01-01-2025 22:56:26  [Tests.TC02_LandingTestCases.openBrowser(TC02_LandingTestCases.java:33)] - page is redirected to base URL
-[INFO] 01-01-2025 22:56:27  [Listeners.ITestResultListener.onTestStart(ITestResultListener.java:12)] - Test casecheckingOnSelecedNumberOfProducts started
